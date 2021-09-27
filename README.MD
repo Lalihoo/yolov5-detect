@@ -1,3 +1,8 @@
+# 安装引用
+```shell
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+pip install -r requirements.txt
+```
 # 模型
 
 > coco128 模型名称
