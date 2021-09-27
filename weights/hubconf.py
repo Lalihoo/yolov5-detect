@@ -70,8 +70,8 @@ def custom(path='path/to/model.pt', autoshape=True, verbose=True, device=None):
     return _create(path, autoshape=autoshape, verbose=verbose, device=device)
 
 
-def coco128(pretrained=True, channels=3, classes=80, autoshape=True, verbose=True, device=None):
-    return _create('coco128', pretrained, channels, classes, autoshape, verbose, device)
+def best(pretrained=True, channels=3, classes=80, autoshape=True, verbose=True, device=None):
+    return _create('best', pretrained, channels, classes, autoshape, verbose, device)
 
 
 if __name__ == '__main__':

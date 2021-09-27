@@ -1,7 +1,7 @@
 import cv2
 from utils.detector import Detector
 
-detector = Detector("weights", "coco128", 0.45)
+detector = Detector("weights", "best", 0.45)
 
 
 def predict(name):
@@ -20,7 +20,7 @@ def camera():
     摄像头检测
     """
     # video = cv2.VideoCapture(0)
-    path = './video/1.mp4'
+    path = './video/2.mp4'
     video = cv2.VideoCapture(path)
     while video.isOpened():
         res, frame = video.read()
